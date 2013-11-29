@@ -4901,4 +4901,9 @@
 
     <!-- Text to display in regulatory info screen (from device overlay). -->
     <string name="regulatory_info_text"></string>
+
+    <!-- Device specific settings -->
+    <string name="quick_links_title">IOKP Settings</string>
+    <string name="advanced_settings_title">Device options</string>
+    <string name="performance_settings">Performance Control</string>
 </resources>
