@@ -61,6 +61,14 @@
     <!-- Quick Links -->
     <header android:title="@string/quick_links_title" />
 
+    <header android:icon="@drawable/ic_settings_rom_control"
+            android:title="@string/rom_control_title">
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.aokp.romcontrol.MainActivity"
+                android:targetPackage="com.aokp.romcontrol" />
+    </header>
+
     <header android:id="@+id/advanced_settings"
             android:title="@string/advanced_settings_title"
             android:icon="@drawable/ic_settings_advanced">
@@ -68,6 +76,17 @@
                 android:action="com.cyanogenmod.action.LAUNCH_DEVICE_SETTINGS"
                 android:targetPackage="com.cyanogenmod.settings.device"
                 android:targetClass="com.cyanogenmod.settings.device.DeviceSettings" />
+    </header>
+
+    <!-- Themes -->
+    <header
+        android:id="@+id/themes_settings"
+        android:icon="@drawable/ic_settings_themes"
+        android:title="@string/themes_settings_title">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.tmobile.themechooser"
+            android:targetClass="com.tmobile.themechooser.ThemeChooser" />
     </header>
 
     <!-- Performance Control -->
@@ -202,6 +221,13 @@
         android:fragment="com.koushikdutta.superuser.PolicyNativeFragment"
         android:icon="@drawable/ic_action_permission"
         android:title="@string/superuser" />
+
+    <!-- App Ops -->
+    <header
+        android:fragment="com.android.settings.applications.AppOpsSummary"
+        android:icon="@drawable/ic_app_ops"
+        android:title="@string/app_ops_settings"
+        android:id="@+id/appops_settings" />
 
     <!-- Date & Time -->
     <header
