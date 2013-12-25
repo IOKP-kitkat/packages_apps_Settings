@@ -26,9 +26,12 @@
                     android:targetClass="com.android.settings.deviceinfo.Status" />
         </PreferenceScreen>
 
-        <!-- IceCold logo -->
-        <PreferenceScreen android:key="iokp_logo"
-                android:layout="@layout/rom_logo" />
+        <!-- Anonymous statistics - (AOKPStats) -->
+        <PreferenceScreen
+            android:key="aokpstats"
+            android:title="@string/anonymous_statistics_title"
+            android:summary="@string/anonymous_statistics_summary"
+            android:fragment="com.android.settings.aokpstats.AnonymousStats" >
         </PreferenceScreen>
 
         <!-- Legal Information -->
