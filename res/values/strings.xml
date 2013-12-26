@@ -4904,6 +4904,5 @@
     <string name="quick_links_title">IOKP Settings</string>
     <string name="advanced_settings_title">Device options</string>
     <string name="performance_settings">Performance Control</string>
-    <string name="mod_version">IOKP version</string>
 
 </resources>
