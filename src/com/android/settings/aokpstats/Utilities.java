@@ -67,14 +67,14 @@ public class Utilities {
     }
 
     public static String getDevice() {
-        String device = SystemProperties.get("ro.aokp.device");
+        String device = SystemProperties.get("ro.iokp.device");
         return device == null ? SystemProperties.get("ro.product.device") : device;
     }
 
     public static String getModVersion() {
-        String version = SystemProperties.get("ro.aokp.version");
-        String branch = SystemProperties.get("ro.aokp.branch");
-        if (version == null || branch == null || !version.startsWith("aokp")) {
+        String version = SystemProperties.get("ro.iokp.version");
+        String branch = SystemProperties.get("ro.iokp.branch");
+        if (version == null || branch == null || !version.startsWith("iokp")) {
             return "KANG";
         } else {
             String[] splitVer = version.split("_");
