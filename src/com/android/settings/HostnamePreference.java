@@ -105,7 +105,7 @@ public class HostnamePreference extends EditTextPreference {
     }
 
     public void persistHostname(String hostname) {
-        Settings.AOKP.putString(getContext().getContentResolver(),
-                Settings.AOKP.DEVICE_HOSTNAME, hostname);
+        Settings.Secure.putString(getContext().getContentResolver(),
+                Settings.Secure.DEVICE_HOSTNAME, hostname);
     }
 }
