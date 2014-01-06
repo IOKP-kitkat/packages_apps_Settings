@@ -132,6 +132,52 @@
     <string name="toggleWimax">WiMAX</string>
     <string name="toggleNfc">NFC</string>
 
+    <!-- Lights settings screen, notification light settings -->
+    <string name="display_lights_settings_title">Display &amp; lights</string>
+    <string name="lights_category_title">Lights</string>
+    <string name="notification_pulse_title">Notification light</string>
+    <string name="notification_light_general_title">General</string>
+    <string name="notification_light_applist_title">Applications</string>
+    <string name="notification_light_phonelist_title">Phone</string>
+    <string name="notification_light_use_custom">Use custom values</string>
+    <string name="notification_light_enabled">Enabled</string>
+    <string name="notification_light_disabled">Disabled</string>
+    <string name="notification_light_default_value">Default</string>
+    <string name="notification_light_missed_call_title">Missed call</string>
+    <string name="notification_light_voicemail_title">Voicemail</string>
+
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Edit light settings</string>
+    <string name="pulse_speed_title">Pulse length and speed</string>
+    <string name="default_time">Normal</string>
+    <string name="custom_time">Custom</string>
+    <string name="dialog_test">Test</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="dialog_test_message">Turn the screen off to see the selected notification in action or dismiss this dialog to stop the test</string>
+    <string name="dialog_test_button">Dismiss</string>
+
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Always on</string>
+    <string name="pulse_length_very_short">Very short</string>
+    <string name="pulse_length_short">Short</string>
+    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_length_long">Long</string>
+    <string name="pulse_length_very_long">Very long</string>
+    <string name="pulse_speed_very_fast">Very fast</string>
+    <string name="pulse_speed_fast">Fast</string>
+    <string name="pulse_speed_normal">Normal</string>
+    <string name="pulse_speed_slow">Slow</string>
+    <string name="pulse_speed_very_slow">Very slow</string>
+
+    <!-- Battery light settings  -->
+    <string name="battery_light_title">Battery light</string>
+    <string name="battery_low_pulse_title">Pulse if battery low</string>
+    <string name="battery_light_list_title">Colors</string>
+    <string name="battery_light_low_color_title">Battery low</string>
+    <string name="battery_light_medium_color_title">Charging</string>
+    <string name="battery_light_full_color_title">Fully charged</string>
+
     <!-- Automatic brightness customization -->
     <string name="auto_brightness_setup_title">Automatic brightness</string>
     <string name="auto_brightness_adjustment_title">Brightness adjustment</string>
@@ -193,4 +239,35 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="advanced_reboot_title">Advanced reboot</string>
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery or bootloader</string>
 
+    <string name="app_security_title">App security</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Blacklist</string>
+    <string name="blacklist_edit_dialog_title">Edit blacklist entry</string>
+    <string name="blacklist_prefs">Settings</string>
+    <string name="blacklist_button_delete">Delete</string>
+    <string name="blacklist_empty_text">You don\'t have any blacklisted numbers. Add an entry by touching the Add (+) button.</string>
+    <string name="blacklist_disabled_empty_text">To blacklist calls and/or messages from certain numbers, enable the blacklist.</string>
+    <string name="blacklist_summary_disabled">Disabled</string>
+    <string name="blacklist_summary">Incoming calls and messages from phone numbers in the blacklist will be blocked</string>
+    <string name="blacklist_notify">Show notification</string>
+    <string name="blacklist_private_numbers_title">Private numbers</string>
+    <string name="blacklist_private_numbers_summary_disabled">Don\'t block calls from private numbers</string>
+    <string name="blacklist_private_numbers_summary">Block incoming <xliff:g id="type">%s</xliff:g> from private numbers</string>
+    <string name="blacklist_unknown_numbers_title">Unknown numbers</string>
+    <string name="blacklist_unknown_numbers_summary_disabled">Don\'t block calls or messages from numbers not in the contact list</string>
+    <string name="blacklist_unknown_numbers_summary">Block incoming <xliff:g id="type">%s</xliff:g> from numbers not in the contact list</string>
+    <string name="blacklist_summary_type_calls_only">calls</string>
+    <string name="blacklist_summary_type_messages_only">messages</string>
+    <string name="blacklist_summary_type_calls_and_messages">calls and messages</string>
+    <string name="blacklist_regex_title">Use wildcards</string>
+    <string name="blacklist_regex_summary">Use . as a wildcard and * for repetition. E.g. 123.* blocks numbers starting with 123 and .*123.* blocks numbers containing 123</string>
+    <string name="blacklist_policy_block_calls">Block incoming calls</string>
+    <string name="blacklist_policy_block_messages">Block incoming messages</string>
+
+    <!-- Blacklist management -->
+    <string name="add_blacklist_number">Add number</string>
+    <string name="remove_blacklist_number_title">Remove number</string>
+    <string name="remove_blacklist_entry">Do you want to remove this blacklist entry?</string>
+    <string name="select_contact">Select contact</string>
 </resources>
