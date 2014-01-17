@@ -4904,6 +4904,8 @@
     <string name="quick_links_title">IOKP Settings</string>
     <string name="advanced_settings_title">Device options</string>
     <string name="performance_settings">Performance Control</string>
+    <string name="iokp_settings_title">IOKP extras</string>
+    <string name="iokp_settings_summary">IOKP features that don\'t belong in RC</string>
 
     <!-- Partition Info -->
     <string name="partition_info_title">Partition info</string>
