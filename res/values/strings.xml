@@ -4480,7 +4480,7 @@
     <!-- Title of dialog for editing data usage cycle reset date. [CHAR LIMIT=48] -->
     <string name="data_usage_cycle_editor_title">Usage cycle reset date</string>
     <!-- Subtitle of dialog for editing data usage cycle reset date. [CHAR LIMIT=32] -->
-    <string name="data_usage_cycle_editor_subtitle">Date of each month:</string>
+    <string name="data_usage_cycle_editor_subtitle">Date of each cycle:</string>
     <!-- Positive button title for data usage cycle editor, confirming that changes should be saved. [CHAR LIMIT=32] -->
     <string name="data_usage_cycle_editor_positive">Set</string>
 
@@ -4899,19 +4899,4 @@
 
     <!-- Text to display in regulatory info screen (from device overlay). -->
     <string name="regulatory_info_text"></string>
-
-    <!-- Device specific settings -->
-    <string name="quick_links_title">IOKP Settings</string>
-    <string name="advanced_settings_title">Device options</string>
-    <string name="performance_settings">Performance Control</string>
-
-    <!-- Partition Info -->
-    <string name="partition_info_title">Partition info</string>
-    <string name="partition_info_system">/system</string>
-    <string name="partition_info_data">/data</string>
-    <string name="partition_info_cache">/cache</string>
-    <string name="partition_info_sdcard">/sdcard (FAT)</string>
-    <string name="partition_info_sdext">/sd-ext (EXT)</string>
-    <string name="partition_info_used_of">/</string>
-
 </resources>

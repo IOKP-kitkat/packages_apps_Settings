@@ -29,10 +29,12 @@
     <string name="gpu_info">GPU</string>
     <!-- About device screen, Cpu info. -->
     <string name="cpu_info">CPU</string>
+    <!-- About device screen, Chipset info -->
+    <string name="chipset_info">Chipset</string>
     <!-- About phone screen, Free memory info -->
     <string name="mem_info">Memory</string>
     <!-- About phone screen,  AOKP version name-->
-    <string name="mod_version">IOKP version</string>
+    <string name="mod_version">AOKP version</string>
     <!-- About phone screen,  AOKP unknown name-->
     <string name="mod_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
@@ -44,11 +46,11 @@
 
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-    <string name="anonymous_statistics_title">IOKP Statistics</string>
-    <string name="anonymous_statistics_summary">Help make IOKP better by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_title">AOKP Statistics</string>
+    <string name="anonymous_statistics_summary">Help make AOKP better by opting into anonymous statistics reporting</string>
     <string name="anonymous_statistics_warning_title">About</string>
-    <string name="anonymous_statistics_warning">Opting into IOKP Statistics will allow non-personal data to be submitted to the
-        developers of IOKP to track unique installations across devices. The information submitted includes an unique identifier,
+    <string name="anonymous_statistics_warning">Opting into AOKP Statistics will allow non-personal data to be submitted to the
+        developers of AOKP to track unique installations across devices. The information submitted includes an unique identifier,
         which does not compromise your privacy or personal data. The data is submitted once weekly, during boot.\n\nFor an example of the data that is submitted, tap on Preview Data.</string>
     <string name="enable_reporting_title">Enable reporting</string>
     <string name="preview_data_title">Preview data</string>
@@ -108,5 +110,8 @@
 
     <!-- WiFi forget all networks -->
     <string name="wifi_menu_forget_all">Forget all networks</string>
+
+    <!-- Subtitle of dialog for editing data usage cycle length. [CHAR LIMIT=32] -->
+    <string name="data_usage_lengths_spinner_subtitle">Cycle length:</string>
 
 </resources>
